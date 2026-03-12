@@ -65,15 +65,13 @@ export default function SiteShell({
           <div
             className="absolute inset-0 bg-cover bg-center hero-slide hero-slide-first"
             style={{
-              backgroundImage:
-                "url(https://hougen-tokyo.jp/wp-content/uploads/DSC_1250-e1538622263962.jpg)",
+              backgroundImage: "url(/BannerPic/Banner1.jpg)",
             }}
           />
           <div
             className="absolute inset-0 bg-cover bg-center hero-slide hero-slide-second"
             style={{
-              backgroundImage:
-                "url(https://shinwa-sangyo.net/img/scrap_door3.jpg)",
+              backgroundImage: "url(/BannerPic/Banner2.jpg)",
             }}
           />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(15,23,42,0.82)_0%,rgba(15,23,42,0.64)_45%,rgba(15,23,42,0.78)_100%)]" />
@@ -83,8 +81,7 @@ export default function SiteShell({
             <div
               className="h-full w-full bg-cover bg-center"
               style={{
-                backgroundImage:
-                  "url(https://www.toakinzoku.co.jp/img/SP_ch_scrap_misc_bg.jpg)",
+                backgroundImage: "url(/BannerPic/Banner3.jpg)",
               }}
             />
             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(15,23,42,0.08)_0%,rgba(15,23,42,0.34)_100%)]" />

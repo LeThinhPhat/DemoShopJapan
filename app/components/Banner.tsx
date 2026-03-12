@@ -18,6 +18,9 @@ export default function Banner() {
           <span className="banner-blink rounded-full bg-white/92 px-4 py-2 text-slate-700 shadow-sm ring-1 ring-white/30">
             受け入れ先: B12区画 Linh Xuan物流ヤード、トゥードゥック市
           </span>
+          <span className="rounded-full bg-slate-900/75 px-4 py-2 font-medium text-white shadow-sm ring-1 ring-white/20">
+            {"\u55b6\u696d\u6642\u9593: 8\u6642-17\u6642"}
+          </span>
           <a
             href="tel:0901234567"
             className="banner-blink rounded-full bg-rose-600 px-4 py-2 font-semibold text-white shadow-sm"
@@ -29,3 +32,5 @@ export default function Banner() {
     </div>
   );
 }
+
+
