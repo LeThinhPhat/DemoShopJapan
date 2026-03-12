@@ -22,7 +22,7 @@ export default function Banner() {
             href="tel:0901234567"
             className="banner-blink rounded-full bg-rose-600 px-4 py-2 font-semibold text-white shadow-sm"
           >
-            買取ホットライン: 0901 234 567
+            買取ホットライン: 0901 234 569
           </a>
         </div>
       </div>
